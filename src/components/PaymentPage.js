@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import CardDetails from './CardDetails';
 import UpiDetails from './UpiDetails';
-// Page used to select payment options
+
+// Page used to add payment options
 
 class PaymentPage extends React.Component {
 	constructor(props) {
@@ -46,8 +47,7 @@ class PaymentPage extends React.Component {
 			}
 		}
 
-	}
-	
+	}	
 	render () {
 		return (
 				<div className="react-form">
@@ -95,53 +95,4 @@ class PaymentPage extends React.Component {
 			);
 	}
 }
-
-// const PaymentPage = (props) => {
-// 	const handleSubmit = (e) => {
-// 		// 	};
-
-// 	const handleSelect = (e) => {
-// 		console.log(e);
-// 	}
-
-// 	return (
-// 		<div className="react-form">
-// 			<form onSubmit={handleSubmit}>
-// 				<h2>Payment</h2>
-
-// 					<label className="payment-label">
-// 						<input type="radio" name="payment-option" onClick={handleSelect}/>
-// 						<span className="payment-option">Debit Card</span>
-// 						<span className="selected"></span>
-// 					</label>
-
-// 					<label className="payment-label">
-// 							<input type="radio" name="payment-option" />
-// 							<span className="payment-option">Credit Card</span>
-// 							<span className="selected"></span>
-// 					</label>
-
-// 					<label className="payment-label">
-// 						<input type="radio" name="payment-option"/>
-// 						<span className="payment-option">UPI</span>
-// 						<span className="selected"></span>
-// 					</label>
-
-// 					<label className="payment-label">
-// 						<input type="radio" name="payment-option" disabled/>
-// 						<span className="payment-option">Cash On Delivery</span>
-// 						<span className="selected"></span>
-// 					</label>
-
-// 					<div className="form-section">
-// 						<Link to="/">
-// 							<button className="btn">Back</button>
-// 						</Link>
-// 						<input type="submit" className="btn paymnt-btn"/>
-// 					</div>
-// 			</form>
-// 		</div>
-// 	);
-// };
-
 export default PaymentPage;

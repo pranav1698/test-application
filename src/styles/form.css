@@ -82,7 +82,7 @@ label {
 	text-align: center;
 }
 
-/* Tablet Styles */
+/* Mobile Styles */
 @media only screen and (min-width: 300px) and (max-width: 960px) {
 	.react-form {
 		padding: 2rem;

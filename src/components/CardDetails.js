@@ -1,5 +1,7 @@
 import React from 'react';
 
+// Inputs for user to add card details
+
 const CardDetails = () => (
 	<div className="card-section">
 		<fieldset className="card-group">
