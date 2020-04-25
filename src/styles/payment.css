@@ -14,7 +14,7 @@
 }
 
 /* Removing the browser's default input */
-.payment-label input {
+.payment-label .radio-input {
 	position: absolute;
 	opacity: 0;
 	cursor: pointer;

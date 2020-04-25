@@ -8,8 +8,8 @@ const AddressPage = (props) => {
 		props.history.push('/payment');
 	}
 	return (
-		<div>
-			<form onSubmit={handleSubmit}>
+		<div className="react-form">
+			<form onSubmit={handleSubmit} method="post">
 				<h2>Shipping Address</h2>
 				<fieldset className="form-group">
 					<label htmlFor="userName">Full Name</label>
