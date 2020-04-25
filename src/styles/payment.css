@@ -1,0 +1,56 @@
+
+.payment-label {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	border-bottom: 1px black;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.payment-label input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.selected {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	border-radius: 25px;
+	background-color: #eee;
+}
+
+
+.payment-label:hover input ~ .selected {
+	background-color: #ccc;
+}
+
+.payment-label input:checked ~ .selected {
+	background-color: #ffab00;
+}
+
+.payment-label input:disabled ~ .payment-option {
+ color: lightgray;
+}
+
+.selected:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+
+.payment-label input:checked ~ .selected:after {
+	display: block;
+}
