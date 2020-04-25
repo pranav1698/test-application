@@ -58,29 +58,26 @@ class PaymentPage extends React.Component {
 								<input type="radio" name="payment-option" onClick={this.handleClick} value="debit" className="radio-input"/>
 								<span className="payment-option">Debit Card</span>
 								<span className="selected"></span>
-								{this.state.selectDebit && (
-									<CardDetails />
-								)}
 							</label>
-
+							{this.state.selectDebit && (
+									<CardDetails />
+							)}
 							<label className="payment-label">
 									<input type="radio" name="payment-option" className="radio-input" value="credit" onClick={this.handleClick}/>
 									<span className="payment-option">Credit Card</span>
-									{this.state.selectCredit  && (
-										<CardDetails />
-									)}
 									<span className="selected"></span>
 							</label>
-
+							{this.state.selectCredit  && (
+										<CardDetails />
+							)}
 							<label className="payment-label">
 								<input type="radio" name="payment-option" className="radio-input" onClick={this.handleClick}/>
 								<span className="payment-option">UPI</span>
-								{this.state.selectUPI && (
-									<UpiDetails />
-								)}
 								<span className="selected"></span>
 							</label>
-
+							{this.state.selectUPI && (
+									<UpiDetails />
+							)}
 							<label className="payment-label">
 								<input type="radio" name="payment-option" disabled className="radio-input" />
 								<span className="payment-option">Cash On Delivery</span>
