@@ -13,25 +13,25 @@ const PaymentPage = (props) => {
 				<h2>Payment</h2>
 
 					<label className="payment-label">
-						<input type="checkbox" />
+						<input type="radio" name="payment-option"/>
 						<span className="payment-option">Debit Card</span>
 						<span className="selected"></span>
 					</label>
 
 					<label className="payment-label">
-							<input type="checkbox"/>
+							<input type="radio" name="payment-option"/>
 							<span className="payment-option">Credit Card</span>
 							<span className="selected"></span>
 					</label>
 
 					<label className="payment-label">
-						<input type="checkbox"/>
+						<input type="radio" name="payment-option"/>
 						<span className="payment-option">UPI</span>
 						<span className="selected"></span>
 					</label>
 
 					<label className="payment-label">
-						<input type="checkbox" disabled/>
+						<input type="radio" name="payment-option" disabled/>
 						<span className="payment-option">Cash On Delivery</span>
 						<span className="selected"></span>
 					</label>
