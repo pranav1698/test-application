@@ -41,7 +41,9 @@ const AddressPage = (props) => {
 					<input id="pincode" className="form-input" type="text" required/>
 				</fieldset>
 				
-				<input className="btn" type="Submit"/>	
+				<div className="submit-section">
+					<input className="btn" type="Submit"/>
+				</div>	
 			</form>
 		</div>
 	);

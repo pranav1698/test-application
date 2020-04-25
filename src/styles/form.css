@@ -74,3 +74,7 @@ label {
 	display: flex;
 	justify-content:space-between;
 }
+
+.submit-section {
+	text-align: center;
+}
