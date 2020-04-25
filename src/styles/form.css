@@ -1,3 +1,4 @@
+/* Initial styles for the form */
 form {
 	padding: 2rem;
 	margin-top: 2rem;
@@ -15,7 +16,7 @@ form {
 	margin-top: 1rem;
 }
 
-
+/* Style for labels of the inputs */
 label {
 	display: inline-block;
 	margin-bottom: 0.5rem;
@@ -47,6 +48,7 @@ label {
   border-bottom-color: #ffab00;
 }
 
+/* Default style for the submit button */
 .btn {
 	display: inline-block;
 	padding: 0.75rem 1rem;

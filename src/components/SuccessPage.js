@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// Success page
+
 const SuccessPage = () => (
 	<div className="success">
 		<h1>Successful</h1>

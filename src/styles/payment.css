@@ -13,6 +13,7 @@
 	user-select: none;
 }
 
+/* Removing the browser's default input */
 .payment-label input {
 	position: absolute;
 	opacity: 0;
@@ -21,6 +22,7 @@
 	width: 0;
 }
 
+/* Creating a customised radio button */
 .selected {
 	position: absolute;
 	top: 0;
@@ -36,14 +38,17 @@
 	background-color: #ccc;
 }
 
+/* Removing the disabled radio button on hover */ 
 .payment-label:hover input:disabled ~ .selected {
 	background-color: white;
 }
 
+/* Changing the color of the radio option when selected */
 .payment-label input:checked ~ .selected {
 	background-color: #ffab00;
 }
 
+/*Default style for the label of the input which is disabled */
 .payment-label input:disabled ~ .payment-option {
  color: lightgray;
 }

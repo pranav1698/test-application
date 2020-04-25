@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// Page used to selec payment options
+
 const PaymentPage = (props) => {
 	const handleSubmit = (e) => {
 		e.preventDefault();
