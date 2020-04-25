@@ -1,0 +1,20 @@
+.success {
+	text-align: center;
+	width: 300px;
+	height: 200px;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+
+	border-radius: 10px;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+	margin: auto;
+}
+
+.success-btn {
+	margin-top: 0.618rem;
+}

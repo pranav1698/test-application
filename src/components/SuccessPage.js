@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom';
 const SuccessPage = () => (
 	<div className="success">
 		<h1>SuccessFull</h1>
+		<h2>Details Added</h2>
 		<Link to="/">
-			<button className="btn">Return</button>
+			<button className="btn success-btn">Return</button>
 		</Link>	
 	</div>
 );

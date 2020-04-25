@@ -36,6 +36,10 @@
 	background-color: #ccc;
 }
 
+.payment-label:hover input:disabled ~ .selected {
+	background-color: white;
+}
+
 .payment-label input:checked ~ .selected {
 	background-color: #ffab00;
 }
